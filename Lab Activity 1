@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head> <h1>Mga Idol ni Sean
+    </h1></head>
+        <body>
+            <b><ol type="I">
+                    <li>KPOP</li>
+                    <ol type="A">
+            </b>
+                            <li>Aespa</li>
+                            <ul type = "circle">
+                                <li>Karina</li>
+                                <li>Winter</li>
+                                <li>Ningning</li>
+                                <li>Giselle</li>
+                            </ul>
+                        
+                            
+                            <li>NewJeans</li>
+                            <ul type = "circle">
+                                <li>Hanni</li>
+                                <li>Haerin</li>
+                                <li>Minji</li>
+                                <li>Hyein</li>
+                                <li>Danielle</li>
+                            </ul>
+
+                            <li>Seventeen</li>
+                            <ul type = "circle">
+                                <li>Scoups</li>
+                                <li>Wonwoo</li>
+                                <li>Mingyu</li>
+                                <li>Vernon</li>
+                                <li>Woozi</li>
+                                <li>Jeonghan</li>
+                                <li>Joshua</li>
+                                <li>DK</li>
+                                <li>Seungkwan</li>
+                                <li>Hoshi</li>
+                                <li>Jun</li>
+                                <li>The8</li>
+                                <li>Dino</li>
+                            </ul>
+                        </ol>
+
+            
+                    <b><li>PPOP</li>
+                    <ol type="A">
+                    </b>
+                        <li>BINI</li>
+                        <ul type = "circle">
+                            <li>Sheena</li>
+                            <li>Jhoanna</li>
+                            <li>Maloi</li>
+                            <li>Gwen</li>
+                            <li>Colet</li>
+                            <li>Mikha</li>
+                            <li>Aiah</li>
+                            <li>Stacy</li>
+                        </ul>
+                    </ol>
+
+                    </ol>
+            </body>            
+    </html>

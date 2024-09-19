@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>All About Sean 😎</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #000; 
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,72 +24,71 @@
         }
 
         .box {
-            background-color: #fff;
             padding: 20px;
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            border: 2px solid; 
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-color: #39ff14; 
+            background: transparent; 
         }
 
-        .box i {
-            font-size: 40px;
-            color: #555;
+        .box .emoji {
+            font-size: 50px;
             margin-bottom: 10px;
         }
 
         .box p {
             margin: 0;
-            font-size: 18px;
-            color: #333;
+            font-size: 20px;
+            color: #fff; 
+            font-weight: bold; 
         }
 
         .box .info {
             text-align: center;
             font-size: 16px;
-            color: #666;
+            color: #fff; 
             margin-top: 10px;
+            font-weight: bold; 
         }
     </style>
-    <!-- Include Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div class="container">
-        <!-- Box 1: Personal Information -->
+
         <div class="box">
-            <i class="fas fa-user"></i>
-            <p>John Doe</p>
+            <div class="emoji">👤</div>
+            <b><p>Basic Information</p></b>
             <div class="info">
-                <p>Web Developer</p>
-                <p>Location: Charlotte, NC</p>
+                <p style="font-size: 17px;">Name: Sean Iliad L. Martinez</p>
+                <p style="font-size: 17px;">Birthday: November 20, 2001</p>
+                <p></p>
             </div>
         </div>
 
-        <!-- Box 2: Hobbies -->
         <div class="box">
-            <i class="fas fa-heart"></i>
-            <p>Hobbies</p>
+            <div class="emoji">☎️</div>
+            <p>Contacts</p>
             <div class="info">
-                <p>Photography</p>
-                <p>Traveling</p>
-                <p>Reading</p>
+                <p style="font-size: 17px;">✉︎: 20-07129@g.batstate-u.edu.ph</p>
+                <p style="font-size: 17px;">ⓕ: Sean Iliad Martinez</p>
+                <p style="font-size: 17px;">✆: (+63)9567969038</p>
             </div>
         </div>
 
-        <!-- Box 3: Projects -->
         <div class="box">
-            <i class="fas fa-briefcase"></i>
-            <p>Projects</p>
+            <div class="emoji">💼</div>
+            <p>Personal Informations</p>
             <div class="info">
-                <p>Personal Blog</p>
-                <p>Portfolio Website</p>
-                <p>Open Source Contributions</p>
+                <p style="font-size: 17px;">❤︎: Paullyne Porcioncula</p>
+                <p style="font-size: 17px;">🎨: Gaming, Anime, and Kdrama</p>
+                <p style="font-size: 17px;">⚲: Gaming, Anime, and Kdrama</p>
             </div>
         </div>
     </div>

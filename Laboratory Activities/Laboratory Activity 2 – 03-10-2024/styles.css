@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cherry Blossom Vision Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Sean's Vision Board</h1>
+</header>
+
+<div class="vision-board">
+  <div class="board-item">
+    <img src="cef3658f078b94360e6fc2032311ba4f.jpg" alt="Placeholder Image">
+  </div>
+  
+  <div class="board-item">
+    <img src="6b4d11cb399222c1c62b97151f7ae563.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="board-item">
+    <img src="c27937f7b75d50ff1a69a7a629ddbea2.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="board-item">
+    <img src="15455e082caf7727ab67486f44cd3ec0.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="board-item">
+    <img src="0f28b9ec01620c00a7e72e22c2f5093e.jpg" alt="Placeholder Image">
+  </div>
+  
+  <div class="board-item">
+    <img src="c3a92fbd6cf3d561947c98fd195b4f67.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="goals">
+    <h2>My Life Goals</h2>
+    <p>
+      1. Travel to Japan<br>
+      2. Start my own business<br>
+      3. Focus on personal growth<br>
+      4. Build strong relationships<br>
+      5. Give back to the community
+    </p>
+  </div>
+
+  <div class="board-item">
+    <img src="dc12011c464a71a27804617a107135e0.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="board-item">
+    <img src="b1774fdcad3f4632c46e45ed6b7c0df7.jpg" alt="Placeholder Image">
+  </div>
+
+<footer>
+  &copy; 2024 Sean's Cherry Blossom Inspired Vision Board
+</footer>
+
+</body>
+</html>
 

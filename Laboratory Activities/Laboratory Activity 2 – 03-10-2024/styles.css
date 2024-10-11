@@ -1,65 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cherry Blossom Vision Board</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* General Styles */
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: #ffeaf2; 
+    margin: 0;
+    padding: 0;
+}
 
-<header>
-  <h1>Sean's Vision Board</h1>
-</header>
+header {
+    background-color: #ffb6c1;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-<div class="vision-board">
-  <div class="board-item">
-    <img src="cef3658f078b94360e6fc2032311ba4f.jpg" alt="Placeholder Image">
-  </div>
-  
-  <div class="board-item">
-    <img src="6b4d11cb399222c1c62b97151f7ae563.jpg" alt="Placeholder Image">
-  </div>
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    font-size: 3em; 
+}
 
-  <div class="board-item">
-    <img src="c27937f7b75d50ff1a69a7a629ddbea2.jpg" alt="Placeholder Image">
-  </div>
+.vision-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    align-items: center; 
+    padding: 40px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
 
-  <div class="board-item">
-    <img src="15455e082caf7727ab67486f44cd3ec0.jpg" alt="Placeholder Image">
-  </div>
+.board-item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    height: 200px; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
 
-  <div class="board-item">
-    <img src="0f28b9ec01620c00a7e72e22c2f5093e.jpg" alt="Placeholder Image">
-  </div>
-  
-  <div class="board-item">
-    <img src="c3a92fbd6cf3d561947c98fd195b4f67.jpg" alt="Placeholder Image">
-  </div>
+.board-item:hover {
+    transform: translateY(-10px); 
+}
 
-  <div class="goals">
-    <h2>My Life Goals</h2>
-    <p>
-      1. Travel to Japan<br>
-      2. Start my own business<br>
-      3. Focus on personal growth<br>
-      4. Build strong relationships<br>
-      5. Give back to the community
-    </p>
-  </div>
+.board-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
 
-  <div class="board-item">
-    <img src="dc12011c464a71a27804617a107135e0.jpg" alt="Placeholder Image">
-  </div>
+/* Goals Section */
+.goals {
+    background-color: #f8d7da; 
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px; 
+    height: 200px; 
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Brush Script MT', cursive; 
+    color: #b22222; 
+    line-height: 1.4;
+}
 
-  <div class="board-item">
-    <img src="b1774fdcad3f4632c46e45ed6b7c0df7.jpg" alt="Placeholder Image">
-  </div>
+.goals h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
 
-<footer>
-  &copy; 2024 Sean's Cherry Blossom Inspired Vision Board
-</footer>
+.goals p {
+    font-size: 1.1em;
+    margin: 0;
+}
 
-</body>
-</html>
+/* Footer Styles */
+footer {
+    background-color: #ffb6c1; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; 
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px;
+}
 
+@media (min-width: 1200px) {
+    footer {
+        padding: 20px 50px;
+    }
+}

@@ -1,0 +1,90 @@
+/* Reset and Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000 url(1314202.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    animation: moveBackground 100s linear infinite;
+}
+
+/* Galaxy Animation */
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 5000px 5000px;
+    }
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    z-index: 1; /* Ensure content is above the background */
+}
+
+/* Box Styles */
+.box {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #39ff14;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14 inset;
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+}
+
+/* Hover Effect */
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #39ff14, 0 0 40px #39ff14 inset;
+}
+
+/* Emoji and Text */
+.box .emoji {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.box .title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.box .info {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+        height: auto;
+    }
+}
